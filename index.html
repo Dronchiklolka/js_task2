@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="head_logo">
+                Моя Выписка
+            </div>
+            <div class="head_name">
+                <img src="images/Andrei_Boikov.JPG" alt="name_person">
+                Андрей Бойков
+            </div>
+        </header>
+        <div class="container_checkbox"> 
+                <label for="date"><input type="checkbox" name="option2" value="date" id="date">Дата</label>
+                <label for="time"><input type="checkbox" name="option3" value="time" id="time">Время</label>
+                <label for="type"><input type="checkbox" name="option4" value="type" id="type">Тип</label>
+                <label for="coming"><input type="checkbox" name="option5" value="coming" id="coming">Приход</label>
+                <label for="consumption"><input type="checkbox" name="option5" value="consumption" id="consumption">Расход</label>
+        </div>
+        <div class="group">
+            Группировка
+            <nav class="group_nav">
+                <form name="group_form">
+                    <select name="chois_group">
+                        <option>Без группировки</option>
+                        <option>По дням</option>
+                    </select>
+                </form>
+            </nav>
+        </div>
+        <div class="table">
+            <table>
+                <tr>
+                    <th>Дата</th>
+                    <th>Время</th>
+                    <th>Тип</th>
+                    <th>Приход</th>
+                    <th>Расход</th>
+                </tr>
+                <tr>
+                    <td>12.02.2015</td>
+                    <td>12:00:00</td>
+                    <td>Кредит</td>
+                    <td>пустое</td>
+                    <td>3 520,00&#8381;</td>
+                </tr>
+                 <tr>
+                    <td>15.02.2015</td>
+                    <td>10:20:00</td>
+                    <td>Аванс</td>
+                    <td>33 850,00&#8381;</td>
+                    <td>пустое</td>
+                </tr>
+                <tr>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                </tr>
+                  <tr>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                </tr>
+                  <tr>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                </tr>
+                
+            </table>
+        </div>
+        <footer>
+            <h3>&#169;Мой банк</h3>
+        </footer>
+    </div>
+
+
+    <script src=”my-statement-data.js”>
+    </script>
+    
+</body>
+</html>
