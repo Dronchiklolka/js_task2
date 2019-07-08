@@ -35,16 +35,18 @@ header{
 .head_logo{
     font-size: 26px;
     font-weight: 700;
+    padding-top: 16px;
+    padding-left: 29px;
 }
 
 .head_name{
     font-size: 20px;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
 }
 
 .container_checkbox{
     border: 3px solid #000;
-    width: 600px;
+    width: 697px;
     margin-top: 40px;
     height: 50px;
     padding-top: 12px;
@@ -52,7 +54,7 @@ header{
 }
 
 label{
-    padding-left: 20px;
+    padding-left: 39px;
 }
 
 .group{
@@ -68,7 +70,7 @@ nav{
 }
 
 .table{
-    width: 620px;
+    width: 697px;
     height: 280px;
     border: 2px solid #000;
 }
@@ -79,8 +81,9 @@ th{
 
 tr, td{
     border: 1px solid slategray;
-    height: 40px;
-    width: 120px;
+    height: 44px;
+    width: 137px;
+    text-align: center;
 }
 
 footer{
