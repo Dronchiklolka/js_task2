@@ -17,7 +17,6 @@ img{
 
 .wrapper{
     width: 700px;
-    height: 730px;
     border: 1px solid red;
     background: rgb(9,121,116);
     background: linear-gradient(90deg, rgba(9,121,116,1) 51%, rgba(0,255,38,1) 100%);
@@ -48,7 +47,6 @@ header{
     border: 3px solid #000;
     width: 697px;
     margin-top: 40px;
-    height: 50px;
     padding-top: 12px;
     padding-left: 30px;
 }
@@ -61,7 +59,6 @@ label{
 text-align: left;
 display: flex;
 width: 100px;
-height: 50px;
 margin-top: 20px;
 }
 
@@ -70,9 +67,9 @@ nav{
 }
 
 .table{
-    width: 697px;
-    height: 280px;
     border: 2px solid #000;
+    height: 280px;
+    overflow-y: auto;
 }
 
 th{
@@ -81,8 +78,6 @@ th{
 
 tr, td{
     border: 1px solid slategray;
-    height: 44px;
-    width: 137px;
     text-align: center;
 }
 
@@ -91,3 +86,4 @@ footer{
     margin-top: 150px;
     text-align: center;
 }
+

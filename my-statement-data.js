@@ -1,4 +1,4 @@
-const myStatementData = [
+let data = [
     {
         _id: '5ae17f666641d44ec7d772e1',
         date: '2015-02-12T06:40:26',
